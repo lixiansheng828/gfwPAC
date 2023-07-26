@@ -1,23 +1,24 @@
-name:  gfwPAC_update
+
+name: gfwPAC_update
+
 on:
     workflow_dispatch:
     schedule:
-        - cron: "* * */ * *"
-    watch:
-        types: [started]
+        - cron: "0 0 * * *"
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  run_python_script:
+    name: Run Python Script
+    runs-on: ubuntu-latest
 
-        steps:
-        - name: checkout actions
-        - uses: actions/checkout@v1
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-        - name: Set up Python 3.7
-          uses: actions/setup-python@v1
-          with:
-            python-version: 3.7
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
 
-        - name: Update paper list
-          run: |
-            run_pac
+      - name: Execute Python Script
+        run: run_pac
+
