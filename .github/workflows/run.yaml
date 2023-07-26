@@ -8,18 +8,16 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
-        if: github.event.repository.owner.id == github.event.sender.id
+
         steps:
-            - uses: actions/checkout@v1
-            - name: Use Node.js 10.x
-              uses: actions/setup-node@v1
-              with:
-                  node-version: 10.x
-            - name: npm install
-              run: |
-                  npm install
-            - name: "gfwPAC_update"
-              run: |
-                  
-              env:
-                 ksjsbCookie: ${{ secrets.KUAISHOU }}
+        - name: checkout actions
+        - uses: actions/checkout@v1
+
+        - name: Set up Python 3.7
+          uses: actions/setup-python@v1
+          with:
+            python-version: 3.7
+
+        - name: Update paper list
+          run: |
+            run_pac
