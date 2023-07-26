@@ -20,5 +20,5 @@ jobs:
           python-version: 3.7
 
       - name: Execute Python Script
-        run: run_pac
+        run: ./run_pac
 
