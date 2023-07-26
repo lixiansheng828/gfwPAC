@@ -20,10 +20,5 @@ jobs:
           python-version: 3.x  # 替换成您希望使用的 Python 版本
 
       - name: Execute Python Script
-        run: python ./gfw-pac.py -i gfwlist.txt \
-                                 -f gfw.pac \
-                                 -p "Socks 127.0.0.1:6080; DIRECT" \
-                                 --user-rule=custom-domains.txt \
-                                 --direct-rule=direct-domains.txt \
-                                 --localtld-rule=local-tlds.txt
+        run: python ./gfw-pac.py 
 
