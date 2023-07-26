@@ -20,5 +20,7 @@ jobs:
           python-version: 3.7
 
       - name: Execute Python Script
-        run: ./run_pac
+        run: |
+            chmod +x run_pac
+            ./run_pac
 
