@@ -19,9 +19,6 @@ jobs:
         with:
           python-version: 3.x  # 替换成您希望使用的 Python 版本
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt  # 如果需要依赖，将其添加到 requirements.txt 文件中
-
       - name: Execute Python Script
         run: python ./gfw-pac.py -i gfwlist.txt \
                                  -f gfw.pac \
