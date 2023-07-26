@@ -6,8 +6,8 @@ on:
     schedule:
         - cron: "0 0 * * *"
 jobs:
-  run_python_script:
-    name: Run Python Script
+  generate_pac:
+    name: Generate PAC
     runs-on: ubuntu-latest
 
     steps:
@@ -17,10 +17,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7
+          python-version: 3.x  # 替换成您希望使用的 Python 版本
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt  # 如果需要依赖，将其添加到 requirements.txt 文件中
 
       - name: Execute Python Script
-        run: |
-            chmod +x run_pac
-            ./run_pac
+        run: python ./gfw-pac.py -i gfwlist.txt \
+                                 -f gfw.pac \
+                                 -p "Socks 127.0.0.1:6080; DIRECT" \
+                                 --user-rule=custom-domains.txt \
+                                 --direct-rule=direct-domains.txt \
+                                 --localtld-rule=local-tlds.txt
 
