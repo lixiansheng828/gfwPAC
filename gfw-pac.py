@@ -281,7 +281,6 @@ def main():
     localtld_rule = None
     print("Downloading gfwlist from %s" % gfwlist_url)
     content = urllib.request.urlopen(gfwlist_url, timeout=10).read().decode("utf-8")
-    print(content)
 
     userrule_parts = urllib.parse.urlsplit(".\custom-domains.txt")
     if not userrule_parts.scheme or not userrule_parts.netloc:
