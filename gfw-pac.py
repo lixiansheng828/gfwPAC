@@ -282,31 +282,31 @@ def main():
     print("Downloading gfwlist from %s" % gfwlist_url)
     content = urllib.request.urlopen(gfwlist_url, timeout=10).read().decode("utf-8")
 
-    userrule_parts = urllib.parse.urlsplit(".\custom-domains.txt")
+    userrule_parts = urllib.parse.urlsplit("./custom-domains.txt")
     if not userrule_parts.scheme or not userrule_parts.netloc:
         # It's not an URL, deal it as local file
-        with open(".\custom-domains.txt", "r") as f:
+        with open("./custom-domains.txt", "r") as f:
             user_rule = f.read()
     else:
         # Yeah, it's an URL, try to download it
-        print("Downloading user rules file from %s" % ".\custom-domains.txt")
+        print("Downloading user rules file from %s" % "./custom-domains.txt")
         user_rule = (
-            urllib.request.urlopen(".\custom-domains.txt", timeout=10)
+            urllib.request.urlopen("./custom-domains.txt", timeout=10)
             .read()
             .decode("utf-8")
         )
 
-    directrule_parts = urllib.parse.urlsplit(".\direct-domains.txt")
+    directrule_parts = urllib.parse.urlsplit("./direct-domains.txt")
     if not directrule_parts.scheme or not directrule_parts.netloc:
         # It's not an URL, deal it as local file
-        with open(".\direct-domains.txt", "r") as f:
+        with open("./direct-domains.txt", "r") as f:
             direct_rule = f.read()
     direct_rule = direct_rule.splitlines(False)
 
-    tldrule_parts = urllib.parse.urlsplit(".\local-tlds.txt")
+    tldrule_parts = urllib.parse.urlsplit("./local-tlds.txt")
     if not tldrule_parts.scheme or not tldrule_parts.netloc:
         # It's not an URL, deal it as local file
-        with open(".\local-tlds.txt", "r") as f:
+        with open("./local-tlds.txt", "r") as f:
             localtld_rule = f.read()
     localtld_rule = localtld_rule.splitlines(False)
 
@@ -319,7 +319,7 @@ def main():
     # domains = reduce_domains(domains)
     pac_content = generate_pac_fast(domains, progxy, direct_rule, cnips, localtld_rule)
 
-    with open(".\gfw.pac", "w") as f:
+    with open("./gfw.pac", "w") as f:
         f.write(pac_content)
 
 
