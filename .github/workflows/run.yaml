@@ -22,6 +22,10 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
-            rm gfw.pac
-            cp gfw.pac $GITHUB_WORKSPACE/gfw.pac  
+            cp gfw.pac $GITHUB_WORKSPACE/gfw.pac  # 将生成的 PAC 文件复制到工作空间  
+      - name: Upload PAC File
+        uses: actions/upload-artifact@v2
+        with:
+          name: pac-files
+          path: gfw.pac
 
