@@ -22,10 +22,15 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
-            cp gfw.pac $GITHUB_WORKSPACE/gfw.pac  # 将生成的 PAC 文件复制到工作空间  
-      - name: Upload PAC File
-        uses: actions/upload-artifact@v2
-        with:
-          name: pac-files
-          path: gfw.pac
+            
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Your GitHub Username"
+          git config user.email "your_email@example.com"
+          git add gfw.pac
+          git commit -m "update pac"
+          git remote set-url origin https://github.com/lixiansheng828/gfwPAC.git  # 替换为您的仓库 URL
+          git push
 
