@@ -22,5 +22,14 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
-            cat gfw.pac
-            echo ha > test.pac 
+      - name: Commit changes
+        run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add gfw.pac
+            git commit -m "Update afw.pac"  # 可以根据需要修改提交信息
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
