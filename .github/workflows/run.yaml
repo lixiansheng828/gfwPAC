@@ -22,5 +22,5 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
-            cp gfw.pac $GITHUB_WORKSPACE/gfw.pac  
+            cp -rf gfw.pac $GITHUB_WORKSPACE/gfw.pac  
 
