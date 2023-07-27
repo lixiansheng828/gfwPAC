@@ -28,7 +28,7 @@ jobs:
       - name: Commit changes
         run: |
             git config --local user.email "action@github.com"
-              git config --local user.name "GitHub Action"
+              git config --local user.name "lixiansheng828"
               git add gfw.pac 
               git commit -m "添加新生成的文件"
               # 推送更改到仓库
