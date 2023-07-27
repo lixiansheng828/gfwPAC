@@ -24,12 +24,9 @@ jobs:
             python ./gfw-pac.py 
       - name: Commit changes
         run: |
-            git config --local user.email "676252316@qq.com"
-            git config --local user.name "lixiansheng828"
-            git add gfw.pac
-            git commit -m "Update afw.pac"  # 可以根据需要修改提交信息
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-            github_token: ${{ ${{ secrets.GITHUB_TOKEN }}
+            git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
+              git add gfw.pac 
+              git commit -m "添加新生成的文件"
+              # 推送更改到仓库
+              git push origin master  
