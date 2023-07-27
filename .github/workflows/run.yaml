@@ -24,8 +24,8 @@ jobs:
             python ./gfw-pac.py 
       - name: Commit changes
         run: |
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
+            git config --local user.email "676252316@qq.com"
+            git config --local user.name "lixiansheng828"
             git add gfw.pac
             git commit -m "Update afw.pac"  # 可以根据需要修改提交信息
 
