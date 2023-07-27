@@ -22,6 +22,7 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
+            
       - name: Commit changes
         run: |
             git config --local user.email "action@github.com"
