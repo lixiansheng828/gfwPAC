@@ -321,6 +321,7 @@ def main():
 
     with open("./gfw.pac", "w") as f:
         f.write(pac_content)
+    print(build OK!)
 
 
 if __name__ == "__main__":
