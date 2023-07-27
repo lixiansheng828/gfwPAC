@@ -16,7 +16,7 @@ from argparse import ArgumentParser
 import base64
 
 gfwlist_url = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
-progxy = "SOCKS 127.0.0.1:60020; HTTPS 127.0.0.1:60020; DIRECT"
+progxy = "SOCKS 127.0.0.1:5858; HTTPS 127.0.0.1:5858; DIRECT"
 
 
 def parse_args():
