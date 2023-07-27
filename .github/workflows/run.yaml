@@ -3,6 +3,8 @@ name: gfwPAC_update
 
 on:
     workflow_dispatch:
+    watch:
+        types: [starred]
     schedule:
         - cron: "0 0 * * *"
 jobs:
