@@ -22,15 +22,5 @@ jobs:
       - name: Execute Python Script
         run: |
             python ./gfw-pac.py 
-            
-      - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        run: |
-          git config user.name "lixiansheng828"
-          git config user.email "676252316@qq.com"
-          git add gfw.pac
-          git commit -m "update pac"
-          git remote set-url origin https://github.com/lixiansheng828/gfwPAC.git  # 替换为您的仓库 URL
-          git push
-
+            cat gfw.pac
+            echo ha > test.pac 
