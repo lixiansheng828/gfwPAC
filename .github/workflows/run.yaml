@@ -20,5 +20,7 @@ jobs:
           python-version: 3.x  # 替换成您希望使用的 Python 版本
 
       - name: Execute Python Script
-        run: python ./gfw-pac.py 
+        run: |
+            python ./gfw-pac.py 
+            cp gfw.pac $GITHUB_WORKSPACE/gfw.pac  
 
