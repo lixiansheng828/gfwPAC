@@ -179,7 +179,7 @@ def reduce_domains(domains):
     return uni_domains
 
 
-def generate_pac_fast(domains, proxy, direct_domains, cnips, local_tlds):
+def generate_pac_fast(domains, direct_domains, cnips, local_tlds):
     # render the pac file
     with open("./pac-template", "r") as f:
         proxy_content = f.read()
@@ -270,7 +270,7 @@ def main():
 
     domains = parse_gfwlist(gfwlist)
     # domains = reduce_domains(domains)
-    pac_content = generate_pac_fast(domains, progxy, direct_rule, cnips, localtld_rule)
+    pac_content = generate_pac_fast(domains, direct_rule, cnips, localtld_rule)
 
     with open("./gfw.pac", "w") as f:
         f.write(pac_content)
