@@ -16,51 +16,6 @@ from argparse import ArgumentParser
 import base64
 
 gfwlist_url = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
-progxy = "SOCKS5 localhost:5858; DIRECT"
-
-
-def parse_args():
-    parser = ArgumentParser()
-    parser.add_argument(
-        "-i", "--input", dest="input", help="path to gfwlist", metavar="GFWLIST"
-    )
-    parser.add_argument(
-        "-f",
-        "--file",
-        dest="output",
-        required=True,
-        help="path to output pac",
-        metavar="PAC",
-    )
-    parser.add_argument(
-        "-p",
-        "--proxy",
-        dest="proxy",
-        required=True,
-        help="the proxy parameter in the pac file, "
-        'for example, "SOCKS5 127.0.0.1:1080;"',
-        metavar="PROXY",
-    )
-    parser.add_argument(
-        "--user-rule",
-        dest="user_rule",
-        help="user rule file, which will be appended to" " gfwlist",
-    )
-    parser.add_argument(
-        "--direct-rule",
-        dest="direct_rule",
-        help="user rule file, contains domains not bypass proxy",
-    )
-    parser.add_argument(
-        "--localtld-rule",
-        dest="localtld_rule",
-        help="local TLD rule file, contains TLDs with a leading dot not bypass proxy",
-    )
-    parser.add_argument(
-        "--ip-file", dest="ip_file", help="delegated-apnic-latest from apnic.net"
-    )
-    return parser.parse_args()
-
 
 # from https://github.com/Leask/Flora_Pac
 
