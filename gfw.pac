@@ -1,6 +1,6 @@
 var proxy = "SOCKS5 127.0.0.1:5858; SOCKS 127.0.0.1:5858; HTTPS 127.0.0.1:5858; DIRECT";
 
-var direct = "DIRECT;";
+var direct = "DIRECT";
 
 var cnips = [
   [
