@@ -1,4 +1,4 @@
-var proxy = "SOCKS5 localhost:5858; DIRECT";
+var progxy = "SOCKS5 localhost:5858; DIRECT; ";
 
 var direct = 'DIRECT;';
 
