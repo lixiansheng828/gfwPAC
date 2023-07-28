@@ -186,7 +186,6 @@ def generate_pac_fast(domains, proxy, direct_domains, cnips, local_tlds):
     domains_dict = {}
     for domain in domains:
         domains_dict[domain] = 1
-    proxy_content = proxy_content.replace("__PROXY__", json.dumps(str(proxy)))
     proxy_content = proxy_content.replace(
         "__DOMAINS__", json.dumps(domains_dict, indent=2, sort_keys=True)
     )
@@ -225,7 +224,6 @@ def generate_pac_precise(rules, proxy):
     # render the pac file
     proxy_content = pkgutil.get_data("gfwlist2pac", "./abp.js")
     rules = list(filter(grep_rule, rules))
-    proxy_content = proxy_content.replace("__PROXY__", json.dumps(str(proxy)))
     proxy_content = proxy_content.replace("__RULES__", json.dumps(rules, indent=2))
     return proxy_content
 
