@@ -1,6 +1,6 @@
 var progxy = "HTTPS localhost:5858;";
 
-var direct = 'DIRECT;';
+var direct = "DIRECT;";
 
 var cnips = [
   [
