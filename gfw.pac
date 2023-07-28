@@ -1,4 +1,4 @@
-var proxy = "SOCKS localhost:5858; DIRECT";
+var proxy = "HTTPS localhost:5858; DIRECT";
 
 var direct = 'DIRECT;';
 
