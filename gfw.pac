@@ -13226,6 +13226,7 @@ var domainsUsingProxy = {
   "goagent.codeplex.com": 1,
   "goagentplus.com": 1,
   "gobet.cc": 1,
+  "godaddy.com": 1,
   "godfootsteps.org": 1,
   "godns.work": 1,
   "godoc.org": 1,
