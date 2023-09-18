@@ -2656,7 +2656,7 @@ var cnips = [
   [
     1732968448,
     4294901760,
-    22
+    23
   ],
   [
     1733033984,
@@ -5460,13 +5460,8 @@ var cnips = [
   ],
   [
     2011693056,
-    4294901760,
-    16
-  ],
-  [
-    2011758592,
-    4294901760,
-    17
+    4294836224,
+    15
   ],
   [
     2011889664,
@@ -9361,7 +9356,7 @@ var cnips = [
   [
     3528130560,
     4294901760,
-    17
+    16
   ],
   [
     3528196096,
@@ -9371,7 +9366,7 @@ var cnips = [
   [
     3528261632,
     4294901760,
-    19
+    16
   ],
   [
     3528327168,
@@ -9541,7 +9536,7 @@ var cnips = [
   [
     3549626368,
     4294901760,
-    17
+    16
   ],
   [
     3549691904,
@@ -9565,18 +9560,8 @@ var cnips = [
   ],
   [
     3550216192,
-    4294901760,
-    18
-  ],
-  [
-    3550281728,
-    4294901760,
-    16
-  ],
-  [
-    3550347264,
-    4294836224,
-    15
+    4294705152,
+    14
   ],
   [
     3550478336,
@@ -9585,18 +9570,8 @@ var cnips = [
   ],
   [
     3550740480,
-    4294836224,
-    15
-  ],
-  [
-    3550871552,
-    4294901760,
-    16
-  ],
-  [
-    3550937088,
-    4294901760,
-    17
+    4294705152,
+    14
   ],
   [
     3560964096,
@@ -9885,13 +9860,8 @@ var cnips = [
   ],
   [
     3673423872,
-    4294901760,
-    18
-  ],
-  [
-    3673489408,
-    4294901760,
-    16
+    4294836224,
+    15
   ],
   [
     3673554944,
@@ -11285,7 +11255,6 @@ var domainsUsingProxy = {
   "6parkbbs.com": 1,
   "6parker.com": 1,
   "6parknews.com": 1,
-  "7-zip.org": 1,
   "72.52.81.22": 1,
   "7capture.com": 1,
   "7cow.com": 1,
@@ -12193,6 +12162,7 @@ var domainsUsingProxy = {
   "civilhrfront.org": 1,
   "civiliangunner.com": 1,
   "civilmedia.tw": 1,
+  "civitai.com": 1,
   "ck101.com": 1,
   "cl.d0z.net": 1,
   "clarionproject.org": 1,
@@ -14159,6 +14129,7 @@ var domainsUsingProxy = {
   "lflinkup.org": 1,
   "lhakar.org": 1,
   "lhasocialwork.org": 1,
+  "li.taipei": 1,
   "liangyou.net": 1,
   "liangzhichuanmei.com": 1,
   "lianyue.net": 1,
@@ -14473,6 +14444,7 @@ var domainsUsingProxy = {
   "mondex.org": 1,
   "money-link.com.tw": 1,
   "moneyhome.biz": 1,
+  "monica.im": 1,
   "monitorchina.org": 1,
   "monocloud.me": 1,
   "monster.com": 1,
@@ -14945,7 +14917,6 @@ var domainsUsingProxy = {
   "page.bid.yahoo.com": 1,
   "page.link": 1,
   "page2rss.com": 1,
-  "pages.dev": 1,
   "pagodabox.com": 1,
   "palacemoon.com": 1,
   "paldengyal.com": 1,
@@ -16187,7 +16158,6 @@ var domainsUsingProxy = {
   "tradingview.com": 1,
   "trans.wenweipo.com": 1,
   "translate.goog": 1,
-  "translate.google": 1,
   "transparency.org": 1,
   "treemall.com.tw": 1,
   "trello.com": 1,
@@ -16588,7 +16558,6 @@ var domainsUsingProxy = {
   "voxer.com": 1,
   "voy.com": 1,
   "vpn.ac": 1,
-  "vpn.cjb.net": 1,
   "vpn.cmu.edu": 1,
   "vpn.sv.cmu.edu": 1,
   "vpn4all.com": 1,
