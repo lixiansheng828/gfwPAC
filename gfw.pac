@@ -2841,7 +2841,7 @@ var cnips = [
   [
     1735262208,
     4294901760,
-    23
+    22
   ],
   [
     1735327744,
@@ -11624,6 +11624,7 @@ var domainsUsingProxy = {
   "backchina.com": 1,
   "backpackers.com.tw": 1,
   "backtotiananmen.com": 1,
+  "bad.news": 1,
   "badiucao.com": 1,
   "badjojo.com": 1,
   "badoo.com": 1,
@@ -13817,6 +13818,7 @@ var domainsUsingProxy = {
   "indiemerch.com": 1,
   "info-graf.fr": 1,
   "initiativesforchina.org": 1,
+  "inkbunny.net": 1,
   "inkui.com": 1,
   "inmediahk.net": 1,
   "innermongolia.org": 1,
@@ -14328,6 +14330,7 @@ var domainsUsingProxy = {
   "matrix.org": 1,
   "matsushimakaede.com": 1,
   "matters.news": 1,
+  "matters.town": 1,
   "matthewdgreen.wordpress.com": 1,
   "mattwilcox.net": 1,
   "maturejp.com": 1,
