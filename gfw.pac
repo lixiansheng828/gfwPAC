@@ -7219,6 +7219,11 @@ var cnips = [
     16
   ],
   [
+    2638348288,
+    4294901760,
+    23
+  ],
+  [
     2641821696,
     4294901760,
     22
@@ -11559,6 +11564,7 @@ var domainsUsingProxy = {
   "appledaily.com": 1,
   "appledaily.com.hk": 1,
   "appledaily.com.tw": 1,
+  "apps.evozi.com": 1,
   "appshopper.com": 1,
   "appsocks.net": 1,
   "appspot.com": 1,
@@ -11568,6 +11574,7 @@ var domainsUsingProxy = {
   "archive.fo": 1,
   "archive.is": 1,
   "archive.li": 1,
+  "archive.md": 1,
   "archive.org": 1,
   "archive.ph": 1,
   "archive.today": 1,
@@ -11982,6 +11989,7 @@ var domainsUsingProxy = {
   "c-spanvideo.org": 1,
   "c100tibet.org": 1,
   "c2cx.com": 1,
+  "cableav.tv": 1,
   "cablegatesearch.net": 1,
   "cachinese.com": 1,
   "cacnw.com": 1,
@@ -12211,6 +12219,7 @@ var domainsUsingProxy = {
   "chubun.com": 1,
   "churchinhongkong.org": 1,
   "chushigangdrug.ch": 1,
+  "ciciai.com": 1,
   "cienen.com": 1,
   "cineastentreff.de": 1,
   "cipfg.org": 1,
@@ -12341,6 +12350,7 @@ var domainsUsingProxy = {
   "cotweet.com": 1,
   "counter.social": 1,
   "coursehero.com": 1,
+  "coze.com": 1,
   "cpj.org": 1,
   "cq99.us": 1,
   "crackle.com": 1,
@@ -14703,6 +14713,7 @@ var domainsUsingProxy = {
   "newmitbbs.com": 1,
   "newnews.ca": 1,
   "news.cnyes.com": 1,
+  "news.ebc.net.tw": 1,
   "news.hk.msn.com": 1,
   "news.msn.com.tw": 1,
   "news.nationalgeographic.com": 1,
