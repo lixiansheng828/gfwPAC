@@ -7304,6 +7304,11 @@ var cnips = [
     23
   ],
   [
+    2686320640,
+    4294901760,
+    23
+  ],
+  [
     2697592832,
     4294901760,
     22
@@ -13977,6 +13982,7 @@ var domainsUsingProxy = {
   "ivacy.com": 1,
   "iverycd.com": 1,
   "ivpn.net": 1,
+  "iwara.tv": 1,
   "ixquick.com": 1,
   "ixxx.com": 1,
   "iyouport.com": 1,
@@ -16200,6 +16206,7 @@ var domainsUsingProxy = {
   "tibetswiss.ch": 1,
   "tibettelegraph.com": 1,
   "tibettimes.net": 1,
+  "tibettruth.com": 1,
   "tibetwrites.org": 1,
   "ticket.com.tw": 1,
   "tigervpn.com": 1,
