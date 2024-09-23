@@ -15067,6 +15067,7 @@ var domainsUsingProxy = {
   "partypoker.com": 1,
   "passion.com": 1,
   "passiontimes.hk": 1,
+  "passwords.google": 1,
   "paste.ee": 1,
   "pastebin.com": 1,
   "pastie.org": 1,
