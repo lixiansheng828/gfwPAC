@@ -7309,6 +7309,16 @@ var cnips = [
     23
   ],
   [
+    2696609792,
+    4294901760,
+    24
+  ],
+  [
+    2696871936,
+    4294901760,
+    23
+  ],
+  [
     2697592832,
     4294901760,
     22
@@ -12860,6 +12870,7 @@ var domainsUsingProxy = {
   "fa.gov.tw": 1,
   "facebook.br": 1,
   "facebook.com": 1,
+  "facebook.de": 1,
   "facebook.design": 1,
   "facebook.hu": 1,
   "facebook.in": 1,
@@ -14462,6 +14473,7 @@ var domainsUsingProxy = {
   "meshrep.com": 1,
   "mesotw.com": 1,
   "messenger.com": 1,
+  "meta.com": 1,
   "metacafe.com": 1,
   "metafilter.com": 1,
   "metart.com": 1,
@@ -16278,6 +16290,7 @@ var domainsUsingProxy = {
   "torrentproject.se": 1,
   "torrenty.org": 1,
   "torrentz.eu": 1,
+  "tortoisesvn.net": 1,
   "torvpn.com": 1,
   "tosh.comedycentral.com": 1,
   "totalvpn.com": 1,
