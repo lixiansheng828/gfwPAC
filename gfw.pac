@@ -4371,7 +4371,7 @@ var cnips = [
   [
     1921384448,
     4294901760,
-    22
+    23
   ],
   [
     1921449984,
@@ -11350,6 +11350,7 @@ var domainsUsingProxy = {
   "5i01.com": 1,
   "5isotoi5.org": 1,
   "5maodang.com": 1,
+  "611study.icu": 1,
   "63i.com": 1,
   "64museum.org": 1,
   "64tianwang.com": 1,
@@ -12375,6 +12376,7 @@ var domainsUsingProxy = {
   "code1984.com": 1,
   "codeshare.io": 1,
   "codeskulptor.org": 1,
+  "cofacts.tw": 1,
   "coin2co.in": 1,
   "coinbase.com": 1,
   "coinbene.com": 1,
@@ -13534,6 +13536,7 @@ var domainsUsingProxy = {
   "greenvpn.net": 1,
   "greenvpn.org": 1,
   "grindr.com": 1,
+  "grok.com": 1,
   "grotty-monday.com": 1,
   "ground.news": 1,
   "groups.google.cn": 1,
@@ -14842,6 +14845,7 @@ var domainsUsingProxy = {
   "news.tvbs.com.tw": 1,
   "news.yahoo.com": 1,
   "news.ycombinator.com": 1,
+  "news1.kr": 1,
   "news100.com.tw": 1,
   "newsancai.com": 1,
   "newsblur.com": 1,
@@ -15211,6 +15215,7 @@ var domainsUsingProxy = {
   "picidae.net": 1,
   "pictures.playboy.com": 1,
   "picturesocial.com": 1,
+  "picuki.com": 1,
   "pigav.com": 1,
   "pin-cong.com": 1,
   "pin6.com": 1,
@@ -15982,7 +15987,6 @@ var domainsUsingProxy = {
   "strikingly.com": 1,
   "strongvpn.com": 1,
   "strongwindpress.com": 1,
-  "student.tw": 1,
   "studentsforafreetibet.org": 1,
   "stumbleupon.com": 1,
   "stupidvideos.com": 1,
