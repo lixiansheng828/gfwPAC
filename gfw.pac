@@ -12577,6 +12577,7 @@ var domainsUsingProxy = {
   "dongtaiwang.net": 1,
   "dongyangjing.com": 1,
   "dontfilter.us": 1,
+  "doom9.org": 1,
   "doosho.com": 1,
   "doourbest.org": 1,
   "dorjeshugden.com": 1,
