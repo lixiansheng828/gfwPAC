@@ -12660,6 +12660,7 @@ var domainsUsingProxy = {
   "e-info.org.tw": 1,
   "e-zone.com.hk": 1,
   "e123.hk": 1,
+  "e621.net": 1,
   "earlytibet.com": 1,
   "earthcam.com": 1,
   "earthvpn.com": 1,
