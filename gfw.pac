@@ -16709,6 +16709,7 @@ var domainsUsingProxy = {
   "www.thechinastory.org": 1,
   "www.wan-press.org": 1,
   "www.websnapr.com": 1,
+  "www.xicons.org": 1,
   "www.zensur.freerk.com": 1,
   "www1.american.edu": 1,
   "www1.biz": 1,
