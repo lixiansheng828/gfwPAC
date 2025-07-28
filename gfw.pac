@@ -8041,7 +8041,7 @@ var cnips = [
   [
     3224567808,
     4294901760,
-    24
+    23
   ],
   [
     3224829952,
@@ -14191,6 +14191,7 @@ var domainsUsingProxy = {
   "lsxszzg.com": 1,
   "ltn.com.tw": 1,
   "luckydesigner.space": 1,
+  "ludepress.com": 1,
   "luke54.com": 1,
   "luke54.org": 1,
   "lupm.org": 1,
@@ -16814,6 +16815,7 @@ var domainsUsingProxy = {
   "yam.org.tw": 1,
   "yande.re": 1,
   "yanghengjun.com": 1,
+  "yangzhi.org": 1,
   "yasni.co.uk": 1,
   "yasukuni.or.jp": 1,
   "yayabay.com": 1,
