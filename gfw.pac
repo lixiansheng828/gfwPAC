@@ -896,7 +896,7 @@ var cnips = [
   [
     762511360,
     4294901760,
-    22
+    23
   ],
   [
     762576896,
@@ -11828,6 +11828,7 @@ var domainsUsingProxy = {
   "bitcointalk.org": 1,
   "bitcoinworld.com": 1,
   "bitfinex.com": 1,
+  "bitget.com": 1,
   "bithumb.com": 1,
   "bitmex.com": 1,
   "bitshare.com": 1,
@@ -12268,6 +12269,7 @@ var domainsUsingProxy = {
   "clipfish.de": 1,
   "cloud.dify.ai": 1,
   "cloud.mail.ru": 1,
+  "cloudflare-dns.com": 1,
   "cloudflare-ipfs.com": 1,
   "cloudfront.net": 1,
   "cloudfunctions.net": 1,
@@ -14263,6 +14265,7 @@ var domainsUsingProxy = {
   "matters.town": 1,
   "matthewdgreen.wordpress.com": 1,
   "mattwilcox.net": 1,
+  "maven.neoforged.net": 1,
   "maxing.jp": 1,
   "mayimayi.com": 1,
   "mcadforums.com": 1,
@@ -16277,6 +16280,7 @@ var domainsUsingProxy = {
   "unstable.icu": 1,
   "unwire.hk": 1,
   "uocn.org": 1,
+  "upbit.com": 1,
   "updates.tdesktop.com": 1,
   "upghsbc.com": 1,
   "upholdjustice.org": 1,
@@ -16698,7 +16702,6 @@ var domainsUsingProxy = {
   "www.moztw.org": 1,
   "www.msn.com": 1,
   "www.nbc.com": 1,
-  "www.nodeloc.com": 1,
   "www.owind.com": 1,
   "www.oxid.it": 1,
   "www.powerpointninja.com": 1,
