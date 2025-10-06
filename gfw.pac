@@ -6294,6 +6294,11 @@ var cnips = [
     16
   ],
   [
+    2080178176,
+    4294901760,
+    23
+  ],
+  [
     2080243712,
     4294901760,
     22
@@ -11402,6 +11407,7 @@ var domainsUsingProxy = {
   "91vps.club": 1,
   "92ccav.com": 1,
   "991.com": 1,
+  "996.icu": 1,
   "99btgc01.com": 1,
   "99cn.info": 1,
   "9bis.com": 1,
@@ -15808,8 +15814,10 @@ var domainsUsingProxy = {
   "tangren.us": 1,
   "tanks.gg": 1,
   "taoism.net": 1,
+  "tap.io": 1,
   "tapanwap.com": 1,
   "tapatalk.com": 1,
+  "taptap.io": 1,
   "tardigrade.io": 1,
   "tarr.uspto.gov": 1,
   "taup.net": 1,
