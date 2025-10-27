@@ -6849,6 +6849,11 @@ var cnips = [
     24
   ],
   [
+    2331770880,
+    4294901760,
+    23
+  ],
+  [
     2332360704,
     4294901760,
     22
@@ -12586,6 +12591,7 @@ var domainsUsingProxy = {
   "doc.new": 1,
   "docker.com": 1,
   "docker.io": 1,
+  "dockerstatus.com": 1,
   "docs.deno.com": 1,
   "docs.new": 1,
   "doctorvoice.org": 1,
