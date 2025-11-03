@@ -15876,6 +15876,7 @@ var domainsUsingProxy = {
   "telesco.pe": 1,
   "tellapart.com": 1,
   "tellme.pw": 1,
+  "temu.com": 1,
   "tenacy.com": 1,
   "tenor.com": 1,
   "tensorflow.org": 1,
