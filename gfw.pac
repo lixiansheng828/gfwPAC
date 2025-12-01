@@ -17013,6 +17013,7 @@ var domainsUsingProxy = {
   "zalmos.com": 1,
   "zamimg.com": 1,
   "zaobao.com.sg": 1,
+  "zaochenbao.com": 1,
   "zapto.org": 1,
   "zattoo.com": 1,
   "zb.com": 1,
