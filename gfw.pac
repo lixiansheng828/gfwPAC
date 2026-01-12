@@ -6401,7 +6401,7 @@ var cnips = [
   [
     2081292288,
     4294901760,
-    18
+    20
   ],
   [
     2081357824,
@@ -11559,7 +11559,6 @@ var domainsUsingProxy = {
   "abitno.linpie.com": 1,
   "ablwang.com": 1,
   "aboluowang.com": 1,
-  "about.gitlab.com": 1,
   "about.me": 1,
   "abplive.com": 1,
   "abs.edu": 1,
@@ -11611,6 +11610,7 @@ var domainsUsingProxy = {
   "agro.hk": 1,
   "ai.binwang.me": 1,
   "ai.dev": 1,
+  "ai.studio": 1,
   "aiosearch.com": 1,
   "aiph.net": 1,
   "airasia.com": 1,
@@ -12382,6 +12382,7 @@ var domainsUsingProxy = {
   "chromecast.com": 1,
   "chromeexperiments.com": 1,
   "chromestatus.com": 1,
+  "chromium.org": 1,
   "chuang-yen.org": 1,
   "chubold.com": 1,
   "chubun.com": 1,
@@ -13375,6 +13376,7 @@ var domainsUsingProxy = {
   "githubassets.com": 1,
   "githubcopilot.com": 1,
   "githubusercontent.com": 1,
+  "gitlab.com": 1,
   "gitlab.net": 1,
   "gizlen.net": 1,
   "gjczz.com": 1,
@@ -14015,7 +14017,6 @@ var domainsUsingProxy = {
   "ismprofessional.net": 1,
   "isohunt.com": 1,
   "israbox.com": 1,
-  "issues.chromium.org ": 1,
   "issuu.com": 1,
   "istars.co.nz": 1,
   "istockphoto.com": 1,
