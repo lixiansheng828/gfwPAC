@@ -715,8 +715,13 @@ var cnips = [
   ],
   [
     730857472,
-    4294443008,
-    13
+    4294836224,
+    15
+  ],
+  [
+    731119616,
+    4294705152,
+    14
   ],
   [
     732954624,
@@ -7134,11 +7139,6 @@ var cnips = [
     16
   ],
   [
-    2386952192,
-    4294901760,
-    16
-  ],
-  [
     2388000768,
     4294901760,
     16
@@ -11852,6 +11852,7 @@ var domainsUsingProxy = {
   "babylonbee.com": 1,
   "babynet.com.hk": 1,
   "backchina.com": 1,
+  "backend-v2.crixet.com": 1,
   "backpackers.com.tw": 1,
   "backtotiananmen.com": 1,
   "bad.news": 1,
@@ -11887,6 +11888,7 @@ var domainsUsingProxy = {
   "bbc.co.uk": 1,
   "bbc.com": 1,
   "bbc.in": 1,
+  "bbc.pdn.tritondigital.com": 1,
   "bbcchinese.com": 1,
   "bbchat.tv": 1,
   "bbci.co.uk": 1,
@@ -12642,6 +12644,7 @@ var domainsUsingProxy = {
   "dbgjd.com": 1,
   "dcard.tw": 1,
   "dcmilitary.com": 1,
+  "dcs-spotify.megaphone.fm": 1,
   "ddc.com.tw": 1,
   "ddex.io": 1,
   "ddns.info": 1,
@@ -13218,6 +13221,7 @@ var domainsUsingProxy = {
   "freess.org": 1,
   "freessh.us": 1,
   "freetcp.com": 1,
+  "freeterabox.com": 1,
   "freetibet.net": 1,
   "freetibet.org": 1,
   "freetibetanheroes.org": 1,
@@ -13645,6 +13649,7 @@ var domainsUsingProxy = {
   "helloandroid.com": 1,
   "helloqueer.com": 1,
   "hellouk.org": 1,
+  "help.byspotify.com": 1,
   "helpeachpeople.com": 1,
   "helpster.de": 1,
   "helpzhuling.org": 1,
@@ -15700,6 +15705,7 @@ var domainsUsingProxy = {
   "silkbook.com": 1,
   "silvergatebank.com": 1,
   "simbolostwitter.com": 1,
+  "simianx.ai": 1,
   "simplecd.me": 1,
   "simplecd.org": 1,
   "simpleproductivityblog.com": 1,
@@ -15991,6 +15997,7 @@ var domainsUsingProxy = {
   "tafm.org": 1,
   "tagwalk.com": 1,
   "tahr.org.tw": 1,
+  "tails.net": 1,
   "taipei.gov.tw": 1,
   "taipeisociety.org": 1,
   "taipeitimes.com": 1,
@@ -17107,6 +17114,7 @@ var domainsUsingProxy = {
   "yesasia.com.hk": 1,
   "yespornplease.com": 1,
   "yeyeclub.com": 1,
+  "yfsp.tv": 1,
   "ygto.com": 1,
   "yhcw.net": 1,
   "yibada.com": 1,
