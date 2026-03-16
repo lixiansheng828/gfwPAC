@@ -7509,6 +7509,11 @@ var cnips = [
     16
   ],
   [
+    2743074816,
+    4294901760,
+    23
+  ],
+  [
     2743992320,
     4294901760,
     16
@@ -15396,6 +15401,7 @@ var domainsUsingProxy = {
   "xcafe.in": 1,
   "xcancel.com": 1,
   "xcity.jp": 1,
+  "xdaforums.com": 1,
   "xerotica.com": 1,
   "xfinity.com": 1,
   "xfxssr.me": 1,
