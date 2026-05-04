@@ -7474,6 +7474,11 @@ var cnips = [
     23
   ],
   [
+    2718171136,
+    4294901760,
+    23
+  ],
+  [
     2718826496,
     4294901760,
     16
@@ -14421,9 +14426,6 @@ var domainsUsingProxy = {
   "saveuighur.org": 1,
   "sbme.me": 1,
   "sbti.unun.dev": 1,
-  "scache.vzw.com": 1,
-  "scache1.vzw.com": 1,
-  "scache2.vzw.com": 1,
   "scdn.co": 1,
   "schema.org": 1,
   "scmp.com": 1,
@@ -14544,6 +14546,7 @@ var domainsUsingProxy = {
   "sockslist.net": 1,
   "socrec.org": 1,
   "softether-download.com": 1,
+  "softether.co.jp": 1,
   "softether.org": 1,
   "softfamous.com": 1,
   "softwarebychuck.com": 1,
@@ -14603,7 +14606,6 @@ var domainsUsingProxy = {
   "sproutcore.com": 1,
   "squirrelvpn.com": 1,
   "ss-link.com": 1,
-  "ss7.vzw.com": 1,
   "ssglobal.co": 1,
   "ssl.webpack.de": 1,
   "sspanel.net": 1,
@@ -15069,6 +15071,7 @@ var domainsUsingProxy = {
   "upmedia.mg": 1,
   "upornia.com": 1,
   "uproxy.org": 1,
+  "upsangel.com": 1,
   "uptodown.com": 1,
   "uraban.me": 1,
   "urbandictionary.com": 1,
