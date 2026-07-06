@@ -15398,6 +15398,7 @@ var domainsUsingProxy = {
   "webpkgcache.com": 1,
   "webrtc.org": 1,
   "websdr.org": 1,
+  "webshare.io": 1,
   "website.new": 1,
   "webwarper.net": 1,
   "wechatlawsuit.com": 1,
