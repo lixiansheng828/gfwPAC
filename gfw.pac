@@ -11443,6 +11443,7 @@ var domainsUsingProxy = {
   "173ng.com": 1,
   "18board.com": 1,
   "18comic.org": 1,
+  "18comic.vip": 1,
   "18mh.net": 1,
   "1984bbs.com": 1,
   "1991way.com": 1,
