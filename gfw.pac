@@ -12372,6 +12372,7 @@ var domainsUsingProxy = {
   "disqus.com": 1,
   "disquscdn.com": 1,
   "dit-inc.us": 1,
+  "divdyn.com": 1,
   "diyin.org": 1,
   "dizhuzhishang.com": 1,
   "dl-laby.jp": 1,
