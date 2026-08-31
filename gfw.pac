@@ -2594,11 +2594,6 @@ var cnips = [
     22
   ],
   [
-    1731395584,
-    4294901760,
-    23
-  ],
-  [
     1731461120,
     4294901760,
     22
@@ -6957,6 +6952,11 @@ var cnips = [
     2229796864,
     4294901760,
     16
+  ],
+  [
+    2251358208,
+    4294901760,
+    22
   ],
   [
     2259615744,
@@ -12835,6 +12835,7 @@ var domainsUsingProxy = {
   "getlantern.org": 1,
   "getmalus.com": 1,
   "getmdl.io": 1,
+  "getmonero.org": 1,
   "getoutline.org": 1,
   "getsession.org": 1,
   "getsync.com": 1,
@@ -14044,6 +14045,7 @@ var domainsUsingProxy = {
   "nhentai.net": 1,
   "nic.cz.cc": 1,
   "nic.gov": 1,
+  "nicoseiga.jp": 1,
   "nicovideo.jp": 1,
   "nightswatch.top": 1,
   "nikke-en.com": 1,
@@ -15539,6 +15541,7 @@ var domainsUsingProxy = {
   "wp.com": 1,
   "wplace.live": 1,
   "wpoforum.com": 1,
+  "write.as": 1,
   "writesonic.com": 1,
   "wsj.com": 1,
   "wsj.net": 1,
