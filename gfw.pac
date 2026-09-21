@@ -14071,6 +14071,7 @@ var domainsUsingProxy = {
   "nordstromrack.com": 1,
   "nordvpn.com": 1,
   "nos.nl": 1,
+  "note.com": 1,
   "notepad-plus-plus.org": 1,
   "nottinghampost.com": 1,
   "now.com": 1,
